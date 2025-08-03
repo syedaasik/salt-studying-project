@@ -5,5 +5,5 @@
 
 $ salt 'minion_id' test.ping 
 
-Eample: salt 'server' test.ping
+**Example:** salt 'server' test.ping
 
