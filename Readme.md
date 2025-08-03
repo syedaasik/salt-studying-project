@@ -1,4 +1,4 @@
-![Architecture Diagram](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*5meS9Owpg508fYz2.jpg)
+![saltstack](images/saltstack.png)
 
 # Useful saltstack commands
 
