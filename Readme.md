@@ -55,4 +55,10 @@
 
 **Example:** salt 'server' cmd.run uptime
 
+#### Run any linux command on minion with timeout value
 
+``` $ salt 'minion_id' cmd.run 'command' timeout 5 ``` [ Run any linux command with timeout ]
+
+**Example:** salt 'server' cmd.run uptime timeout=5
+
+---
