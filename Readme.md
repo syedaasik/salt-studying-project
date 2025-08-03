@@ -19,3 +19,6 @@
 ``` $ salt 'minion_id' cp.push_dir /path/file_name ``` [ Folder should exist in minion ]
 
 **Example:** salt 'server' cp.push_dir /tmp/test_folder
+
+**Note:** File and folder pushed from minion to master will be stored in 
+( /var/cache/salt/master/minions/minion_id/files/ )
