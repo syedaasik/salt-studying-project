@@ -44,3 +44,13 @@
 **Example:** salt 'server' cp.get_dir salt://test_folder /tmp/test_folder
 
 ---
+
+### CMD 
+---
+#### Run any linux command on minion
+
+``` $ salt 'minion_id' cmd.run 'command' ``` [ Run any linux command ]
+
+**Example:** salt 'server' cmd.run uptime
+
+
