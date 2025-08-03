@@ -37,7 +37,7 @@
 
 **Example:** salt 'server' cp.get_file salt://test_file /tmp/test_file
 
-#### Get file from master to minion
+#### Get directory from master to minion
 
 ``` $ salt 'server' cp.get_dir salt://sample_folder /tmp/sample_folder ``` [ File should exist in salt roots]
 
