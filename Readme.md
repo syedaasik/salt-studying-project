@@ -28,3 +28,12 @@
 ( /var/cache/salt/master/minions/minion_id/files/ )
 
 ---
+
+### Get
+---
+#### Get file from master to minion
+
+``` $ salt 'server' cp.get_file salt://sample_file /tmp/sample_file ``` [ File should exist in salt roots]
+
+**Example:** salt 'server' cp.get_file salt://test_file /tmp/test_file
+
