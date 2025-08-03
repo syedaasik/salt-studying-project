@@ -61,4 +61,10 @@
 
 **Example:** salt 'server' cmd.run uptime timeout=5
 
+#### Run any linux command on minion with jinja template
+
+``` $ salt 'minion_id' cmd.run template=jinja "command with grains" ```
+
+**Example:** salt 'server' cmd.run "template=jinja "mkdir /tmp/{{grains.id}}"
+
 ---
