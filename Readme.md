@@ -1,0 +1,1 @@
+# This document is prepared with the intention to study salt stack
