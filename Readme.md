@@ -1,1 +1,6 @@
-# This document is prepared with the intention to study salt stack
+# Useful saltstack commands
+
+
+Test minion from master
+*salt 'minion_id' test.ping* -
+
